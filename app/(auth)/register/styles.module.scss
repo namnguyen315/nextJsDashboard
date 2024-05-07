@@ -1,0 +1,42 @@
+.container {
+  width: 100%;
+
+  .device {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    .line {
+      height: 1px;
+      background-color: #dfdfdf;
+      width: calc(50% - 60px);
+    }
+    p {
+      width: 120px;
+      text-align: center;
+      color: #363636;
+      font-size: 13px;
+    }
+  }
+  .oauthButton {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 27%;
+      height: 50px;
+      background-color: #dfdfdf;
+      border-radius: 5px;
+      border: 1px #dddfdd solid;
+      transition: background-color 0.3s ease-in-out;
+    }
+    button:hover {
+      background-color: white;
+    }
+  }
+}
